@@ -9,4 +9,5 @@ resource "aws_instance" "web" {
 
 variable "name" {
   type = string
+  default = "staging"
 }
