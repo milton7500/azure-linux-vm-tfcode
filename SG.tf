@@ -2,7 +2,7 @@
 #Security Group#
 ######################################
 
-resource "aws_security_group" "mysg" {
+/*resource "aws_security_group" "mysg" {
   name        = "my-sg"
   description = "allow ports ssh http tcp"
   vpc_id      = aws_vpc.myvpc.id
@@ -42,4 +42,4 @@ resource "aws_security_group" "mysg" {
 
   depends_on = [aws_vpc.myvpc]
 
-}
+}*/
